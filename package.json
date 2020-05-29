@@ -1,7 +1,6 @@
 {
   "name": "macek-nextjs",
   "version": "1.0.0",
-  "baseUrl": ".",
   "scripts": {
     "dev": "next",
     "build": "next build",

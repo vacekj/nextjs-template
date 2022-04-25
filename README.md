@@ -1,6 +1,14 @@
 # Atris Next.js Template
 
-Minimal Next.js template with fast tooling and basic dependencies.
+Personal Next template with fast tooling and sensible defaults.
+
+Features
+
+- Rust-based tooling
+- ChakraUI
+- Cypress for E2E testing
+- dprint formatter
+- ESLint with Next config
 
 ## How to use it?
 
@@ -12,5 +20,5 @@ pnpm create next-app -- --use-pnpm -e https://github.com/vacekj/nextjs-template 
 
 2. Install additional dependencies:
 
-- [dum](https://github.com/egoist/dum)
+- [dum](https://github.com/egoist/dum) for running `package.json` scripts
   - `brew install egoist/tap/dum`

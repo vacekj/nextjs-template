@@ -1,11 +1,13 @@
-# Next.js Template
+# Atris Next.js Template
+
+Minimal Next.js template with fast tooling and basic dependencies
 
 ## How to use it?
 
 ### Using `create-next-app`
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Use [pnpm](https://pnpm.io/) for maximum speed and space efficiency:
 
 ```bash
-yarn create next-app --example https://github.com/vacekj/nextjs-template my-next-app
+pnpm create next-app -- --use-pnpm -e https://github.com/vacekj/nextjs-template my-next-app
 ```
